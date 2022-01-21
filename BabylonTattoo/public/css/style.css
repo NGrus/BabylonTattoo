@@ -1,0 +1,127 @@
+/*DESKTOP*/
+@media (min-width: 1580px) {
+  /*GENERAL*/
+  *{
+    margin:0;
+    padding:0;
+  }
+  a:link, a:visited {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+  }
+  a:hover{
+    text-decoration:none;
+    color:red;
+  }
+  /*END GENERAL*/
+
+  /*HEADER*/
+  .menubtn{
+    display:none
+  }
+  .header{
+    font-size:25px;
+    padding:50px;
+    text-align:justify;
+    background-color:rgb(4, 4, 4);
+    flex:100%;
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap:wrap;
+  }
+  .header1{
+    flex-wrap:wrap;
+    margin:auto;
+    flex:40%;
+    display:flex;
+  }
+  .navicon{
+    margin:auto;
+    flex:20%;
+  }
+  .header2{
+    flex-wrap:wrap;
+    margin:auto;
+    flex:40%;
+    display:flex;
+  }
+  .navitem{
+    margin:30px;
+    flex-grow:inherit;
+  }
+  /*END HEADER*/
+
+  /*MAIN*/
+  .main{
+    width:100%;
+    padding:auto;
+  }
+  .maintext {
+    text-align: center;
+    color:white;
+  }
+  #opacityoverlay{
+    width:100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.82);
+    overflow: hidden;
+  }
+  .maincontainer{
+    height:700px;
+    background-image:url(../img/border1.jpg);
+    background-size: cover;
+  }
+  #overlay{
+    width:100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .maincontainer img{
+    width:100%;
+    height:100%;
+  }
+  .contentgridhome{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    height:100%;
+    width:100%;
+  }
+  .maincontenttext{
+    color:rgb(255, 255, 255);
+    margin:auto;
+    grid-row: 2;
+    grid-column:2;
+    text-align: center;
+    text-shadow:0px 0px 5px black, 0px 0px 15px black;
+  }
+  .maincontenttext p{
+    font-size:20px;
+  }
+  /*END MAIN*/
+
+  /*FOOTER*/
+  .footer{
+    font-size:20px;
+    padding:50px;
+    bottom:0;
+    display:flex;
+    width:100%;
+    text-align: center;
+    background-color:rgb(4, 4, 4);
+  }
+  .footerdiv{
+    color:white;
+    flex:50%;
+    font-size:15px;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+  }
+  .footerdiv a{
+    margin:auto;
+  }
+  /*END FOOTER*/
+}
+/*DESKTOP END*/
